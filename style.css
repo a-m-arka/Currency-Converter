@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 95vh;
+    background-color: #081C15;
+    color: #081C15;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#heading{
+    text-align: center;
+}
+
+.container {
+    background-color: #B7E4C7;
+    border-radius: 3%;
+    box-shadow: 0 0 1.5rem #D8F3DC;
+    padding: 2rem;
+    min-height: 60vh;
+    min-width: 50vh;
+}
+
+form {
+    margin: 2rem 0 2rem;
+}
+
+form select,
+input,
+button {
+    width: 100%;
+    border-radius: 0.75rem;
+    border: none;
+    outline: none;
+}
+
+form input {
+    border: 1px solid #081C15;
+    font-size: 2rem;
+    height: 3rem;
+    padding-left: 0.75rem;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.dropdown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.dropdown i {
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+.selector img {
+    max-width: 2.5rem;
+}
+
+.selector {
+    padding: 5px;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 0.5rem;
+    border: 1px solid #081C15;
+    background-color: #74C69D;
+}
+
+.selector select {
+    font-size: 1rem;
+    background-color: #081C15;
+    color: #D8F3DC;
+    width: auto;
+    height: 2rem;
+    padding: 5px;
+}
+
+.msg {
+    margin: 2rem 0 2rem 0;
+}
+
+.msg #newAmount{
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+#exchangeBtn {
+    height: 3rem;
+    font-size: 2rem;
+    box-shadow: 0 0 1.5rem #081C15;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #95D5B2;
+    background-color: #081C15;
+    cursor: pointer;
+}
